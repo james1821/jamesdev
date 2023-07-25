@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../components/css/tailwind.css';
+import TypingEffect from 'react-typing-effect';
 
 const Home = () => {
  
