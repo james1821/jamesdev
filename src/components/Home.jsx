@@ -20,7 +20,7 @@ const Home = () => {
           <TypingEffect
           text={['Front End', 'Back End', 'Full Stack Developer']}
           speed={100}
-          eraseDelay={1000}
+          eraseDelay={0}
         />
            </p>  
         </div>
