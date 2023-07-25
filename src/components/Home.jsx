@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../components/css/tailwind.css';
-import TypingEffect from 'react-typing-effect';
+import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
  
@@ -17,10 +17,11 @@ const Home = () => {
           <hr className='lg:w-[70%] w-[90%] h-[20px]  m-auto pt-8 text-custom-red' />
         
           <p className="text-white text-[1rem] lg:text-[2rem]">
-          <TypingEffect
-          text={['Front End', 'Back End', 'Full Stack Developer']}
-          speed={100}
-          eraseDelay={0}
+          <TypeAnimation
+          sequence={['Front End', 'Back End', 'Full Stack Developer']}
+          speed={50}
+          style={{ fontSize: '2em', display: 'inline-block' }}
+          repeat={no}
         />
            </p>  
         </div>
