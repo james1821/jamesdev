@@ -1,0 +1,8 @@
+/* tailwind.css or your component's style block */
+.front-end-text {
+    @layer text-black; /* Change this to the desired color */
+  }
+  
+  .back-end-text {
+    @layer text-black; /* Change this to the desired color */
+  }
