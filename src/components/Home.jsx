@@ -16,10 +16,12 @@ const Home = () => {
           <hr className='lg:w-[70%] w-[90%] h-[20px]  m-auto pt-8 text-custom-red' />
         
           <p className="text-white text-[1rem] lg:text-[2rem]">
-               <p><span class="front-end-text">Front End</span>
-                <span class="back-end-text">Back End</span>
-                Full Stack Developer</p> 
-            </p>
+          <TypingEffect
+          text={['Front End', 'Back End', 'Full Stack Developer']}
+          speed={100}
+          eraseDelay={1000}
+        />
+           </p>  
         </div>
       </div>
     </section>
