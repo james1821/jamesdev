@@ -8,6 +8,14 @@ import MyData from './components/MyData';
 function App() {
   return (
     <div>
+      <Global
+        styles={css`
+          body {
+            margin: 0;
+          }
+        `}
+      />
+      
      <Navbar/>
      <Home/>
      <About  MyData={MyData}/>
