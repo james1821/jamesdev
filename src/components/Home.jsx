@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import '../components/css/tailwind.css';
 
 const Home = () => {
-  const [typedText, setTypedText] = useState('');
+ 
 
   return (
-    <section id='Home' className="bg-HOME-BG h-[100vh]">
+    <section id='Home' className="bg-HOME-BG h-[100vh] w-full">
       <div className="md:flex space-x-20 justify-center text-center ">
         <div className="justify-center align-center flex-col p-6">
           <h1 className="text-white lg:text-[4rem] text-[2rem] pt-[8rem]">Hello there I'm</h1>
