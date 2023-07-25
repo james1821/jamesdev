@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import ReactTyped from "react-typed";
 import '../components/css/tailwind.css';
 
 const Home = () => {
@@ -16,17 +15,11 @@ const Home = () => {
           </p>
           <hr className='lg:w-[70%] w-[90%] h-[20px]  m-auto pt-8 text-custom-red' />
         
-          <p className="text-white text-[1rem] lg:text-[2rem]"><ReactTyped
-               strings={[
-                '<span class="front-end-text">Front End</span>',
-                '<span class="back-end-text">Back End</span>',
-                'Full Stack Developer',
-              ]}
-              typeSpeed={5}
-              backSpeed={5}
-              onStringTyped={(text) => setTypedText(text)}
-              showCursor={false} 
-            /></p>
+          <p className="text-white text-[1rem] lg:text-[2rem]">
+               <p><span class="front-end-text">Front End</span>
+                <span class="back-end-text">Back End</span>
+                Full Stack Developer</p> 
+            </p>
         </div>
       </div>
     </section>
