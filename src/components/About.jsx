@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import JMImage from './images/JM.jpg';
+import PointingImage from './images/pointing_up.jpg';
 
 class About extends Component {
   render() {
@@ -17,7 +17,7 @@ class About extends Component {
 
           <div className="w-1/2 flex items-center justify-center">
             <div className="">
-              <img src={JMImage} alt="Slideshow" className="w-[200px] h-[200px]" />
+              <img src={PointingImage} alt="Slideshow" className="w-[200px] h-[200px]" />
             </div>
           </div>
         </div>
