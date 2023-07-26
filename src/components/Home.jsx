@@ -20,7 +20,7 @@ const Home = () => {
         
           <p className="text-white text-[1.5rem] lg:text-[2rem]">
           <TypeAnimation
-          sequence={['Front End',200, 'Back End',200, 'Full Stack Developer']}
+          sequence={['Front End',300, 'Back End',300, 'Full Stack Developer']}
           speed={70}
           deletionSpeed={100}
           style={{ fontSize: '1em', display: 'inline-block' }}
