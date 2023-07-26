@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../components/css/tailwind.css';
-import TypeAnimation from 'react-type-animation';
+import {TypeAnimation} from 'react-type-animation';
 
 
 
