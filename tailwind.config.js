@@ -17,10 +17,7 @@ module.exports = {
       'custom-red':'#C3073F',
       'secondary':'#4E4E50',
     },
-    screens:{
-       'xs':'320px',
-    'lg':'1024px',
-      },
+   
   },
   plugins: [],
 }

@@ -9,6 +9,7 @@ export default ({ mode }) => {
     build: {
       rollupOptions: {
         external: ['react-type-animation'],
+       external: ['react-scroll-parallax'],
       },
     },
   });
