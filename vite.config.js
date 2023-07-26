@@ -6,10 +6,10 @@ export default ({ mode }) => {
     plugins: [
       react(),
     ],
-    build: {
-      rollupOptions: {
-        external: ['react-type-animation'],
-      },
-    },
+    // build: {
+    //   rollupOptions: {
+    //     external: ['react-type-animation'],
+    //   },
+    // },
   });
 };
