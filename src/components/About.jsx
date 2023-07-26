@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PointingImage from './images/pointing_up.jpg';
-import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
+
 
 
 class About extends Component {
