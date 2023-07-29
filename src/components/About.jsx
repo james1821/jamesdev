@@ -1,6 +1,6 @@
 import React from 'react';
 import PointingImage from './images/pointing_up.jpg';
-import Bounce from 'react-reveal/Zoom';
+import Bounce from 'react-reveal/Bounce';
 
 
 const About = () => {
