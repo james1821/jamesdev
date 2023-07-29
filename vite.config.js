@@ -9,7 +9,7 @@ export default ({ mode }) => {
     build: {
       rollupOptions: {
         external: ['react-type-animation'],
-        external: ['@mui/lab/Timeline'],
+        external: ['react-awesome-reveal'],
     
       },
     },
