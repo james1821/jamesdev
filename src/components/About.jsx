@@ -1,6 +1,7 @@
 import React from 'react';
 import PointingImage from './images/pointing_up.jpg';
-import { Bounce } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
+import 'animate.css';
 
 
 const About = () => {
@@ -22,9 +23,9 @@ const About = () => {
 <div className="w-full md:pt-20  text-white" >
 
 
-<Bounce>
+<Slide direction="right">
 <img src={PointingImage} alt="mePointingImage" className="animate__animated m-auto w-[60%] md:w-[40%] h-full" loading="lazy" />
-</Bounce>    
+</Slide>    
       
  </div>
         
