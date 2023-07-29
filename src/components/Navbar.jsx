@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={` flex lg:items-center lg:justify-between p-6 bg-primary lg:bg-primary-bg ${
+      className={` flex lg:items-center lg:justify-between p-6 bg-primary lg:bg-primary-bg z-10 ${
         isOpen ? 'lg:w-full' : 'w-[60px] lg:w-full'
       } fixed lg:sticky top-0`}
     >
