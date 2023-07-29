@@ -6,13 +6,17 @@ import About from './components/About';
 import Education from './components/Education';
 
 
+
 function App() {
   return (
     <div>
-     <Navbar/>
+      
+      <Navbar/>
      <Home/>
      <About/>
      <Education/>
+   
+   
      
     </div>
  

@@ -14,7 +14,7 @@ module.exports = {
       'HOME-BG': '#1A1A1D',
       'white':'#FFFFFF',
       'skyblue':'#66FCF1',
-      'custom-red':'#C3073F',
+      'custom-red':'#86C232',
       'secondary':'#4E4E50',
     },
    
