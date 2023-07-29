@@ -4,5 +4,5 @@ Created using Vite + React.js
 
 Design: Mostly Tailwind CSS and some vanilla CSS
 
-Libraries: Chronos for timelines
+Libraries: Chronos for timelines,
 react-type-animation for typing animation
