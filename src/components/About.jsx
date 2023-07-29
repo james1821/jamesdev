@@ -1,5 +1,7 @@
 import React from 'react';
 import PointingImage from './images/pointing_up.jpg';
+import ScrollAnimation from 'react-animate-on-scroll';
+
 
 const About = () => {
 
@@ -15,12 +17,17 @@ const About = () => {
             new technologies and <span className="text-primary"> building useful and cool things</span> with it.</p>
           </div>
         </div>
-        
-        <div className="w-full md:pt-20 " >
+       
+
+<div className="w-full md:pt-20  text-white" >
+<ScrollAnimation animateIn="bounceInRight">
+<img src={PointingImage} alt="mePointingImage" className="m-auto w-[60%] md:w-[40%] h-full" loading="lazy" />
+</ScrollAnimation>
          
-                <img src={PointingImage} alt="mePointingImage" className="m-auto w-[60%] md:w-[40%] h-full" loading="lazy" />
-             
-        </div>
+         
+      
+ </div>
+        
       </div>
     </section>
   );
