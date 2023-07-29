@@ -28,8 +28,8 @@ const Education = () => {
     ];
 
   return (
-   <section id='Education' className='bg-HOME-BG h-full ' >
-   <h1 className='text-center text-2xl md:text-4xl font-bold pb-4 pt-12 text-custom-red '>Education</h1>
+   <section id='Education' className='bg-primary-bg h-full ' >
+   <h1 className='text-center text-2xl md:text-4xl font-bold pb-4 pt-12 text-primary '>Education</h1>
 
   
   <Chrono items={items} 

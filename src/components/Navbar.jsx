@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={` flex lg:items-center lg:justify-between p-6 bg-custom-red lg:bg-HOME-BG ${
+      className={` flex lg:items-center lg:justify-between p-6 bg-primary lg:bg-primary-bg ${
         isOpen ? 'lg:w-full' : 'w-[60px] lg:w-full'
       } fixed lg:sticky top-0`}
     >
@@ -41,20 +41,20 @@ const Navbar = () => {
           className={` lg:w-full lg:h-2 lg:flex  lg:items-center  lg:text-center ${isOpen ? "block" : "hidden"}`}
         >
           <div className="text-xl lg:flex-grow lg:space-x-[5rem]  ">
-            <a href="#Home" onClick={handleLinkClick} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-custom-red mr-4">
+            <a href="#Home" onClick={handleLinkClick} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary mr-4">
               Home
             </a>
 
-            <a href="#About" onClick={handleLinkClick} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-custom-red mr-4">
+            <a href="#About" onClick={handleLinkClick} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary mr-4">
               About
             </a>
-            <a href="#Education" onClick={handleLinkClick} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-custom-red mr-4">
+            <a href="#Education" onClick={handleLinkClick} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary mr-4">
              Education
             </a>
-            <a href="#" onClick={handleLinkClick} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-custom-red mr-4">
+            <a href="#" onClick={handleLinkClick} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary mr-4">
               Works
             </a>
-            <a href="#" onClick={handleLinkClick} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-custom-red mr-4">
+            <a href="#" onClick={handleLinkClick} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary mr-4">
               Contacts
             </a>
            
