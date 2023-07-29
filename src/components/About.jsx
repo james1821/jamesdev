@@ -1,6 +1,6 @@
 import React from 'react';
 import PointingImage from './images/pointing_up.jpg';
-import { Slide } from "react-awesome-reveal";
+import { Slide } from "../../node_modules/react-awesome-reveal";
 import 'animate.css';
 
 
