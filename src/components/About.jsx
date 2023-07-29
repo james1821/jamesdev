@@ -16,7 +16,7 @@ const About = () => {
           </div>
         </div>
         
-        <div className="w-full md:pt-20 " ref={sectionRef} >
+        <div className="w-full md:pt-20 " >
          
                 <img src={PointingImage} alt="mePointingImage" className="m-auto w-[60%] md:w-[40%] h-full" loading="lazy" />
              
