@@ -4,31 +4,6 @@ import { Slide } from "../../node_modules/react-awesome-reveal";
 import 'animate.css';
 
 
-const Education = () => {
-    const customRed = '#86C232'; 
-    const items = [{
-        title: "2017 - 2019",
-        cardTitle: "College for Research and Technology (CRT)",
-        media: {
-          type: "IMAGE",
-          source: {
-            url: "https://img.freepik.com/free-photo/cherry-blossoms-fuji-mountain-spring-sunrise-shizuoka-japan_335224-110.jpg?w=1060&t=st=1690479875~exp=1690480475~hmac=4c4f292d82da4cc4eda4303137f2b7ce640f5182df2f53b8086789e5d21ec715"
-          }
-        }
-      },
-      {
-        title:  "2019 - 2023",
-        cardTitle: "Dunkirk",
-      
-        media: {
-          type: "IMAGE",
-          source: {
-            url: "http://someurl/image.jpg"
-          }
-        }
-      }
-    ];
-
   return (
    <section id='Education' className='bg-primary-bg h-full ' >
    <h1 className='text-center text-2xl md:text-4xl font-bold pb-4 pt-12 text-primary '>Education</h1>
@@ -62,6 +37,6 @@ const Education = () => {
         
    </section>
   )
-}
+
 
 export default Education
