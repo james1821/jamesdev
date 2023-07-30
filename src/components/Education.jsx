@@ -12,14 +12,14 @@ const Education = () => {
       title: '2017-2019',
       cardTitle: 'CRT',
       cardSubtitle: 'Subtitle for Card 1',
-      cardDetailedText: 'Details about Card 1',
+      cardDetailedText: 'Details about Card 1'
       
     },
     {
       title: '2019-2023',
       cardTitle: 'CLSU',
       cardSubtitle: 'Subtitle for Card 1',
-      cardDetailedText: 'Details about Card 1',
+      cardDetailedText: 'Details about Card 1'
       
     },
    
