@@ -22,19 +22,22 @@ const Education = () => {
         }}
       >
        
-          <Slide >
+          <Slide direction='left' >
             <div>
             
                   <h2> Hello World</h2>
             </div>
+              
+          </Slide>
          
 
-       
-             <div>
+          <Slide direction='right'>
+            <div>
                   <h2> Hello James</h2>
              </div>
-           
           </Slide>
+             
+         
       </Chrono>
     </section>
   );
