@@ -11,7 +11,7 @@ const Education = () => {
    <h1 className='text-center text-2xl md:text-4xl font-bold pb-4 pt-12 text-primary '>Education</h1>
 
 
-  <Chrono items={items} 
+  <Chrono 
   mode="VERTICAL_ALTERNATING"
   scrollable={{ scrollbar: true }} 
    theme={{
@@ -24,7 +24,7 @@ const Education = () => {
    }}
 
   >
-
+    <Slide>
           <div>
             <div style={{ width: "250px", height: "250px" }}>
               <img
@@ -34,7 +34,7 @@ const Education = () => {
               />
             </div>
           </div>
-       
+          </Slide>
           
       </Chrono>
 
