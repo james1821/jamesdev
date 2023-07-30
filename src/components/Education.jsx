@@ -24,7 +24,7 @@ const Education = () => {
        
           <Slide direction='left' >
             <div>
-                  <img src="https://crt.edu.ph/img/CRT2.png" alt="crt-logo" className='w-20% h-auto' />
+                  <img src="https://crt.edu.ph/img/CRT2.png" alt="crt-logo" className= "w-20% h-auto" />
                   <h2> Hello World</h2>
                   
 
