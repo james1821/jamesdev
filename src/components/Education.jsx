@@ -1,7 +1,5 @@
 import * as React from 'react';
 import { Chrono } from "react-chrono";
-import { Slide } from "../../node_modules/react-awesome-reveal";
-import 'animate.css';
 
 
 const Education = () => {
@@ -24,7 +22,7 @@ const Education = () => {
    }}
 
   >
-    <Slide>
+
           <div>
             <div style={{ width: "250px", height: "250px" }}>
               <img
@@ -34,7 +32,7 @@ const Education = () => {
               />
             </div>
           </div>
-          </Slide>
+     
           
       </Chrono>
 
