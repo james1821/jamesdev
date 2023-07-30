@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Chrono } from '../../node_modules/react-chrono';
 import { Slide } from '../../node_modules/react-awesome-reveal';
+import {clsulogo} from 'images/clsu-logo.png';
 import 'animate.css';
 
 const Education = () => {
@@ -25,7 +26,7 @@ const Education = () => {
           <Slide direction='left' >
             <div>
               <div className="w-20% h-auto">
-              <img src="https://crt.edu.ph/img/CRT2.png" alt="crt-logo"  /> 
+              <img src={clsulogo} alt="crt-logo"  /> 
               </div>
                  
                   <h2> Hello World</h2>
