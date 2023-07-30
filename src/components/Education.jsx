@@ -24,16 +24,16 @@ const Education = () => {
        
           <Slide >
             <div>
-             <div>
+            
                   <h2> Hello World</h2>
-             </div>
             </div>
+         
 
-            <div>
+       
              <div>
                   <h2> Hello James</h2>
              </div>
-            </div>
+           
           </Slide>
       </Chrono>
     </section>
