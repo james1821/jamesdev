@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Chrono } from '../../node_modules/react-chrono';
 import { Slide } from '../../node_modules/react-awesome-reveal';
-import Clsulogo from '/images/clsu-logo.png';
+import Clsulogo from './images/clsu-logo.png';
 import 'animate.css';
 
 const Education = () => {
