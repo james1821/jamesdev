@@ -24,7 +24,7 @@ const Education = () => {
    }}
 
   >
-    <Slide>
+
           <div>
             <div style={{ width: "250px", height: "250px" }}>
               <img
@@ -34,7 +34,7 @@ const Education = () => {
               />
             </div>
           </div>
-          </Slide>
+       
           
       </Chrono>
 
