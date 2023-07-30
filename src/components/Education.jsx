@@ -51,7 +51,7 @@ const Education = () => {
               <h3>{item.cardTitle}</h3>
               <p>{item.cardSubtitle}</p>
               <div className='flex'>
-          
+              {item.media}
               </div>
             </div>
           </Slide>
