@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Chrono } from './/.//node_modules/react-chrono';
-import { Slide } from './/.//node_modules/react-awesome-reveal';
+import { Chrono } from '../../node_modules/react-chrono';
+import { Slide } from '../../node_modules/react-awesome-reveal';
 import 'animate.css';
 
 const Education = () => {
