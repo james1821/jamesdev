@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { Chrono } from "react-chrono";
 import { Slide } from "../../node_modules/react-awesome-reveal";
+import crtImage from './images/crt.jpg';
+import collegeImage from './images/college.jpg';
 import 'animate.css';
 
 
@@ -8,7 +10,7 @@ const Education = () => {
     const customRed = '#86C232'; 
   
   return (
-   <section id='Education' className='bg-primary-bg h-full ' >
+   <section id='Education' className='bg-primary-bg h-full md:pt-56 ' >
    <h1 className='text-center text-2xl md:text-4xl font-bold pb-4 pt-12 text-primary '>Education</h1>
 
 
@@ -26,11 +28,23 @@ const Education = () => {
 
   >
         <Slide> <div>
-            <div style={{ width: "250px", height: "250px" }}>
+            <div style={{ width: "100%", height: "100%" }}>
               <img
                 style={{ maxWidth: "100%", maxHeight: "100%" }}
                 alt="test"
-                src="https://cdn.tutsplus.com/net/uploads/2013/08/github-collab-retina-preview.gif"
+                src={crtImage}
+              />
+            </div>
+          </div>
+          </Slide>
+
+
+          <Slide> <div>
+            <div style={{ width: "100%", height: "100%" }}>
+              <img
+                style={{ maxWidth: "100%", maxHeight: "100%" }}
+                alt="test"
+                src={collegeImage}
               />
             </div>
           </div>

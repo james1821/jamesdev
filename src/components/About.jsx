@@ -24,7 +24,7 @@ const About = () => {
 
 
 <Slide direction="right">
-<img src={PointingImage} alt="mePointingImage" className="animate__animated m-auto w-[60%] md:w-[40%] h-full" loading="lazy" />
+<img src={PointingImage} alt="mePointingImage" className=" m-auto w-[60%] md:w-[40%] h-full" loading="lazy" />
 </Slide>    
       
  </div>
