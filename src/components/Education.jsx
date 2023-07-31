@@ -12,7 +12,7 @@ const Education = () => {
 
       <Chrono
         mode="VERTICAL_ALTERNATING"
-        scrollable={{ scrollbar: true }}
+        scrollable={{ scrollbar: false }}
         theme={{
           primary: primary,
           secondary: primary,
@@ -22,13 +22,28 @@ const Education = () => {
           cardTitleColor: primary,
         }}
       >
+
+
+<Slide direction='left'>
+          <div className='flex-col justify-center items-center  '>
       
-          <Slide direction='left' >
+          <img  className='md:w-[200px] w-[100px] m-auto' src="https://crt.edu.ph/img/CRT2.png" alt="crtlogo" />
+     
+          <h2 className='text-center md:text-2xl font-bold'>College for Research and Technology
+          <br/> <span className='font-normal'>2018-2019</span>
+          <br/> <span className='pt-2 font-normal'>Information Communication Technology</span>
+          </h2>
+
+
+    </div>
+          </Slide>
+      
+          <Slide direction='right' >
             <div className='flex-col justify-center items-center  '>
       
-              <img className='md:w-[20%] w-[100px] m-auto' src={Clsulogo} alt="crt-logo"  /> 
+              <img className='md:w-[200px] w-[100px] m-auto' src={Clsulogo} alt="crt-logo"  /> 
              
-                  <h2 className='text-center  font-bold'> Central Luzon State University 
+                  <h2 className='text-center md:text-2xl font-bold'> Central Luzon State University 
                   <br/> <span className='font-normal'>2019-2023</span>
                   <br/> <span className='pt-2 font-normal'>Bachelor of Science in Information Technology</span>
                   </h2>
@@ -37,16 +52,17 @@ const Education = () => {
             </div>
 
           </Slide>
-         
+          
 
-          <Slide direction='right'>
-            <div>
-                  <h2> Hello James</h2>
-             </div>
-          </Slide>
+         
              
          
       </Chrono>
+      <Chrono>
+      <h1 className="text-center text-2xl md:text-4xl font-bold pb-4 pt-12 text-primary">Education</h1>
+      </Chrono>
+    
+
     </section>
   );
 };
