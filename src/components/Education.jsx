@@ -58,6 +58,7 @@ const Education = () => {
              
          
       </Chrono>
+      <h1 className="text-center text-2xl md:text-4xl font-bold pb-4 pt-12 text-primary">Experience</h1>
       <Chrono
       mode="VERTICAL_ALTERNATING"
         scrollable={{ scrollbar: false }}
@@ -71,7 +72,7 @@ const Education = () => {
         }}
       >
 
-      <h1 className="text-center text-2xl md:text-4xl font-bold pb-4 pt-12 text-primary">Experience</h1>
+    
       </Chrono>
     
 
