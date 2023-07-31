@@ -58,8 +58,20 @@ const Education = () => {
              
          
       </Chrono>
-      <Chrono>
-      <h1 className="text-center text-2xl md:text-4xl font-bold pb-4 pt-12 text-primary">Education</h1>
+      <Chrono
+      mode="VERTICAL_ALTERNATING"
+        scrollable={{ scrollbar: false }}
+        theme={{
+          primary: primary,
+          secondary: primary,
+          cardBgColor: 'grey',
+          titleColor: 'white',
+          titleColorActive: 'white',
+          cardTitleColor: primary,
+        }}
+      >
+
+      <h1 className="text-center text-2xl md:text-4xl font-bold pb-4 pt-12 text-primary">Experience</h1>
       </Chrono>
     
 
