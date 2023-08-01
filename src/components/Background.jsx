@@ -1,14 +1,14 @@
 import * as React from 'react';
-import { Chrono } from '../../node_modules/react-chrono';
-import { Slide } from '../../node_modules/react-awesome-reveal';
+import { Chrono } from 'react-chrono';
+import { Slide } from 'react-awesome-reveal';
 import Clsulogo from './images/clsu-logo.png';
 import 'animate.css';
 
-const Education = () => {
+const Background = () => {
   const primary = '#86C232';
   return (
-    <section id="Education" className="bg-primary-bg h-full">
-      <h1 className="text-center text-2xl md:text-4xl font-bold pb-4 pt-12 text-primary">Education</h1>
+    <section id="Background" className="bg-primary-bg h-full">
+      <h1 className="text-center text-4xl md:text-6xl font-bold pb-4 pt-20 text-primary">Background</h1>
 
       <Chrono
         mode="VERTICAL_ALTERNATING"
@@ -58,7 +58,7 @@ const Education = () => {
              
          
       </Chrono>
-      <h1 className="text-center text-2xl md:text-4xl font-bold pb-4 pt-12 text-primary">Experience</h1>
+      <h1 className="text-center text-4xl md:text-6xl font-bold pb-4 pt-12 text-primary">Experience</h1>
       <Chrono
       mode="VERTICAL_ALTERNATING"
         scrollable={{ scrollbar: false }}
@@ -80,4 +80,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default Background;

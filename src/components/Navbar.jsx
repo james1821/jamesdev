@@ -48,8 +48,8 @@ const Navbar = () => {
             <a href="#About" onClick={handleLinkClick} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary mr-4">
               About
             </a>
-            <a href="#Education" onClick={handleLinkClick} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary mr-4">
-             Education
+            <a href="#Background" onClick={handleLinkClick} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary mr-4">
+             Background
             </a>
             <a href="#" onClick={handleLinkClick} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary mr-4">
               Works
