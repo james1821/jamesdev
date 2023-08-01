@@ -8,7 +8,7 @@ const Background = () => {
   const primary = '#86C232';
   return (
     <section id="Background" className="bg-primary-bg h-full">
-      <h1 className="text-center text-4xl md:text-6xl font-bold pb-4 pt-20 text-primary">Background</h1>
+      <h1 className="text-left md:text-center text-4xl md:text-6xl font-bold pb-4 pt-20 text-primary">Background</h1>
 
       <Chrono
         mode="VERTICAL_ALTERNATING"
@@ -58,7 +58,7 @@ const Background = () => {
              
          
       </Chrono>
-      <h1 className="text-center text-4xl md:text-6xl font-bold pb-4 pt-12 text-primary">Experience</h1>
+      <h1 className="text-left md:text-center  text-4xl md:text-6xl font-bold pb-4 pt-12 text-primary">Experience</h1>
       <Chrono
       mode="VERTICAL_ALTERNATING"
         scrollable={{ scrollbar: false }}
