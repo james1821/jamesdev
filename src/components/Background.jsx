@@ -3,13 +3,14 @@ import { Chrono } from '../../node_modules/react-chrono';
 import { Slide } from '../../node_modules/react-awesome-reveal';
 import Clsulogo from './images/clsu-logo.png';
 import 'animate.css';
+import ResizableImage from './/tools/Resize'
 
 const Background = () => {
   const primary = '#86C232';
   return (
     <section id="Background" className="bg-primary-bg h-full">
-      <h1 className="text-left md:text-center text-4xl md:text-6xl font-bold pb-4 pt-20 text-primary">Background</h1>
-
+      <h1 className="text-center md:text-center text-4xl md:text-7xl font-bold pb-4 pt-20 text-white">Background</h1>
+      <h1 className="text-left md:text-center text-3xl md:text-5xl font-bold pb-4  text-primary">Education</h1>
       <Chrono
         mode="VERTICAL_ALTERNATING"
         scrollable={{ scrollbar: false }}
@@ -58,7 +59,7 @@ const Background = () => {
              
          
       </Chrono>
-      <h1 className="text-left md:text-center  text-4xl md:text-6xl font-bold pb-4 pt-12 text-primary">Experience</h1>
+      <h1 className="text-left md:text-center  text-3xl md:text-5xl font-bold pb-4 pt-12 text-primary">Work Experience</h1>
       <Chrono
       mode="VERTICAL_ALTERNATING"
         scrollable={{ scrollbar: false }}
@@ -71,6 +72,20 @@ const Background = () => {
           cardTitleColor: primary,
         }}
       >
+              <Slide direction='left'>
+          <div className='flex-col justify-center items-center'>
+      
+          <ResizableImage />
+          
+          <h2 className='text-center md:text-2xl font-bold'>IphiTech 
+          <br/> <span className='font-normal'>February 2023- June 2023</span>
+          <br/> <span className='pt-2 font-normal'>Web Developer Intern</span>
+          </h2>
+
+
+    </div>
+          </Slide>
+      
 
     
       </Chrono>
