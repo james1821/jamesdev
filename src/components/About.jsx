@@ -20,11 +20,11 @@ const About = () => {
         </div>
        
 
-<div className="w-full md:pt-20  text-white" >
+<div className="w-full md:pt-20  " >
 
 
-<Slide direction="right">
-<img src={PointingImage} alt="mePointingImage" className=" m-auto w-[60%] md:w-[40%] " loading="lazy" />
+<Slide direction="right" triggerOnce="true">
+<img src={PointingImage} alt="mePointingImage" className=" w-[60%] md:w-[40%]  m-auto  " loading="lazy" />
 </Slide>    
       
  </div>
