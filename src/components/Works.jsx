@@ -1,12 +1,17 @@
 import React from 'react'
 
+
+
 const Works = () => {
+    
+      
   return (
+    
    <section id='Works' className='bg-primary-bg'>
         <h1 className="text-center md:text-center text-4xl md:text-7xl font-bold pb-4 pt-20 text-white">Projects</h1>
         <div className='flex-col lg:flex justify-center items-center pt-20'>
-            <div className='flex-col bg-secondary w-[500px] text-white text-center round'>
-            <iframe width="500" height="315" className='m-a'
+            <div className='flex-col bg-secondary lg:w-1/3 w-full text-white text-center round'>
+            <iframe  className='m-a w-full h-[200px]'
                 src="https://www.youtube.com/embed/tftEN5Zgtro">
             </iframe>
             <h1 className='text-2xl p-4 text-primary'>Web-Based Record Management System with Two-factor Authentication</h1>
@@ -34,8 +39,8 @@ const Works = () => {
             
             </div>
 
-            <div className='flex-col bg-secondary w-[500px] text-white text-center round'>
-            <iframe width="500" height="315" className='m-a'
+            <div className='flex-col bg-secondary lg:w-1/3 w-full text-white text-center round'>
+            <iframe  className='m-a w-full h-[200px]'
                 src="https://www.youtube.com/embed/tftEN5Zgtro">
             </iframe>
             <h1 className='text-2xl p-4 text-primary'>Web-Based Record Management System with Two-factor Authentication</h1>
@@ -62,6 +67,10 @@ const Works = () => {
             </div>
             
             </div>
+
+          
+            
+           
 
       
         </div>
