@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Background from './components/Background';
-import Works from './components/Works';
+import Works from './components/Projects/Works';
 
 
 

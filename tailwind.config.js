@@ -17,6 +17,12 @@ module.exports = {
       'primary':'#86C232',
       'secondary':'#4E4E50',
     },
+    screens:{
+      'lg':'1020px',
+      'md':'768px',
+      'sm':'320px'
+    }
+    
    
   },
   plugins: [],
