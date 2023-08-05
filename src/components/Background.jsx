@@ -31,7 +31,7 @@ const Background = () => {
 <Slide direction='left' triggerOnce="true">
           <div className='flex-col justify-center items-center  '>
       
-          <img  className='md:w-[200px] w-[100px] m-auto' src="https://crt.edu.ph/img/CRT2.png" alt="crtlogo" />
+          <img  className='md:w-[200px] w-[100px] m-auto' src="https://crt.edu.ph/img/CRT2.png" alt="crtlogo" loading="lazy"  />
      
           <h2 className='text-center text-white md:text-2xl font-bold'>College for Research and Technology
           <br/> <span className='font-normal'>2018-2019</span>
@@ -45,7 +45,7 @@ const Background = () => {
           <Slide direction='right'triggerOnce="true" >
             <div className='flex-col justify-center items-center  '>
       
-              <img className='md:w-[200px] w-[100px] m-auto' src={Clsulogo} alt="crt-logo"  /> 
+              <img className='md:w-[200px] w-[100px] m-auto' src={Clsulogo} alt="clsu-logo " loading="lazy"/> 
              
                   <h2 className='text-center text-white md:text-2xl font-bold'> Central Luzon State University 
                   <br/> <span className='font-normal'>2019-2023</span>

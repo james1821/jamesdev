@@ -25,7 +25,7 @@ const ResizableImage = () => {
   const imageWidth = getImageWidth(innerWidth);
   const imageUrl = getImageUrl(innerWidth);
 
-  return <img src={imageUrl} className={`w-[${imageWidth}] m-auto`} alt="ResizableImage" />;
+  return <img src={imageUrl} className={`w-[${imageWidth}] m-auto`} alt="ResizableImage" loading="lazy" />;
 };
 
 export default ResizableImage;
