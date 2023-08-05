@@ -24,13 +24,14 @@ const Works = () => {
       
       ],
     },
+    
 
   ];
 
   return (
     <section id='Works' className='bg-primary-bg'>
-      <h1 className='text-center md:text-center text-6xl md:text-7xl font-bold pb-10 pt-10 text-white'>Projects</h1>
-      <div className=' flex md:flex-row justify-center gap-10 sm:flex-col md:w-[80%] w-[90%] h-[50%] m-auto '>
+      <h1 className='text-center md:text-center text-6xl md:text-7xl font-bold pb-10 pt-10 text-primary'>Projects</h1>
+      <div className=' flex md:flex-row justify-center gap-10 sm:flex-col md:w-[100%] w-[80%] h-[50%] m-auto '>
         {projects.map((project, index) => (
           <Project {...project} key={`project-${index}`}  />
         ))}

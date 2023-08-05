@@ -65,7 +65,7 @@ const Navbar = () => {
             Background
           </a>
           <a
-            href="#"
+            href="#Works"
             onClick={handleLinkClick}
             className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary mr-4"
           >
