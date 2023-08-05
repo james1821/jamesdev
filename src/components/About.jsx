@@ -17,6 +17,11 @@ const About = () => {
             from Central Luzon State University (CLSU). <span className="text-primary"> I love learning </span>
             new technologies and <span className="text-primary"> building useful and cool things</span> with it.</p>
           </div>
+          <div className='flex justify-center items-center'>
+  
+          
+          
+          </div>
         </div>
        
 
