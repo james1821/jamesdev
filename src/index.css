@@ -7,3 +7,7 @@
     font-family: Proxima Nova, system-ui, sans-serif;
   }
 }
+
+.swiper-pagination-bullet-active {
+  background-color: #86c232 !important;
+}
