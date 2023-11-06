@@ -2,8 +2,8 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
-import Background from "./components/Background";
 import Works from "./components/Projects/Works";
+import Exp from "./components/Exp";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Home />
       <About />
       <Works />
-      <Background />
+      <Exp />
     </div>
   );
 }
