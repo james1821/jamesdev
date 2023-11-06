@@ -1,8 +1,16 @@
 import React from "react";
 
-const Project = ({ title, videoSrc, imageSrc, description, techStack }) => {
+const Project = ({
+  title,
+  videoSrc,
+  imageSrc,
+  description,
+  techStack,
+  DemoLink,
+  CodeLink,
+}) => {
   return (
-    <div className="flex-col bg-secondary md:w-1/3 w-full text-white text-center round">
+    <div className="flex-col bg-secondary md:w-1/3  text-white text-center round">
       {videoSrc ? (
         <iframe
           className="m-auto w-full h-[300px]"
@@ -20,7 +28,8 @@ const Project = ({ title, videoSrc, imageSrc, description, techStack }) => {
       {/* button for view code */}
       <div className="flex justify-center items-center gap-12 p-4">
         <a
-          href="#_"
+          target="_blank"
+          href={CodeLink}
           class="relative p-2 overflow-hidden font-[1rem] text-gray-600 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group"
         >
           <span class="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-600 group-hover:w-full ease"></span>
@@ -35,7 +44,8 @@ const Project = ({ title, videoSrc, imageSrc, description, techStack }) => {
 
         {/* button for view site */}
         <a
-          href="#_"
+          target="_blank"
+          href={DemoLink}
           class="relative p-2 overflow-hidden font-[1rem] text-gray-600 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group"
         >
           <span class="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-600 group-hover:w-full ease"></span>
