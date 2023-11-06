@@ -1,70 +1,69 @@
 import * as React from "react";
-import { Chrono } from "../../node_modules/react-chrono";
-import { Slide } from "../../node_modules/react-awesome-reveal";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.css";
+import { Pagination } from "swiper/modules";
+import CLSU from "/img/CLSU_Logo.png";
+
 import "animate.css";
 
 const Background = () => {
   const primary = "#86C232";
+
   const background = [
     {
       title: "College for Research and Technology",
       year: "2017-2019",
       pos: "Information Communication Technology (ICT)",
+      imgSrc: "https://www.crt.edu.ph/img/CRT2.png",
+      imgHeight: "h-[150px]",
     },
     {
       title: "Central Luzon State University",
       year: "2019-2023",
       pos: "Bachelor of Science in Information Technology (BSIT)",
+      imgSrc: CLSU,
+      imgHeight: "h-[150px]",
     },
     {
       title: "IPhiTech",
       year: "February 2023 - June 2023",
       pos: "Web Developer Intern",
-      desc: "Developed front-end website from design mockup using HTML, CSS and JavaScript",
+      desc: "Developed front-end websites mockup using HTML, CSS, JavaScript and Wordpress (Elementor, Oxygen Builder) ",
+      imgSrc:
+        "https://iphitech.com/wp-content/uploads/2023/05/005-2048x305.png",
+      imgHeight: "h-[80px]",
     },
   ];
 
   return (
-    <section id="Background" className="bg-primary-bg h-full">
-      <h1 className="text-center md:text-center text-6xl md:text-7xl font-bold pb-4 pt-20 text-primary">
-        Background
-      </h1>
-
-      <div className="m-auto md:w-[70%] ">
-        <Chrono
-          mode="VERTICAL"
-          hideControls={true}
-          theme={{
-            primary: primary,
-            secondary: primary,
-            cardBgColor: "grey",
-            titleColor: "white",
-            titleColorActive: "white",
-            cardTitleColor: primary,
-            innerHeight: 500,
-          }}
+    <section
+      id="Background"
+      className="bg-secondary rounded-md h-[310px] p-2 m-3"
+    >
+      <div className="">
+        <Swiper
+          pagination={true}
+          modules={[Pagination]}
+          className="w-full h-[300px] "
         >
-          {background.map((backgrounds) => (
-            <Slide direction="left" triggerOnce="true" key={backgrounds.title}>
-              <div className="flex-col justify-center items-center">
+          {background.map((item, index) => (
+            <SwiperSlide key={index}>
+              <div className="flex flex-col items-center justify-center text-white text-center">
                 <img
-                  className={`md:w-[${backgrounds.imageSizeDesktop}] w-[${backgrounds.imageSize}] m-auto`}
-                  src={backgrounds.imageurl}
-                  alt="bg-logos"
-                  loading="lazy"
+                  src={item.imgSrc}
+                  alt=""
+                  className={`${item.imgHeight} m-auto`}
                 />
-                <h2 className="text-center text-white    md:text-2xl font-bold">
-                  {backgrounds.title}
-                  <br /> <span className="font-normal">{backgrounds.year}</span>
-                  <br />{" "}
-                  <span className="pt-2 font-normal">{backgrounds.pos}</span>
-                  <br />{" "}
-                  <span className="font-normal ">{backgrounds.desc} </span>
+                <h2 className="text-2xl font-bold text-primary">
+                  {item.title}
                 </h2>
+                <p className="text-lg  ">{item.year}</p>
+                <p className="text-lg ">{item.pos}</p>
+                {item.desc && <p className="text-lg">{item.desc}</p>}
               </div>
-            </Slide>
+            </SwiperSlide>
           ))}
-        </Chrono>
+        </Swiper>
       </div>
     </section>
   );
