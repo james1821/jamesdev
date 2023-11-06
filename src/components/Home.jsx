@@ -2,11 +2,8 @@ import React, { useState } from 'react';
 import '../components/css/tailwind.css';
 import {TypeAnimation} from '../../node_modules/react-type-animation';
 
-
-
 const Home = () => {
  
-
   return (
     <section id='Home' className="bg-primary-bg h-[100vh] w-full">
       <div className="md:flex space-x-20 justify-center text-center ">

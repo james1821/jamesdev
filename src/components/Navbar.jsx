@@ -1,34 +1,36 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  
+
   const handleLinkClick = () => {
-    setIsOpen(false); // Set isOpen to false to close the navbar
+    setIsOpen(false); 
   };
 
   return (
     <nav
       className={`flex lg:items-center lg:justify-between p-6 bg-primary lg:bg-primary-bg z-10 ${
-        isOpen ? 'lg:w-full' : 'w-[60px] lg:w-full'
+        isOpen ? "lg:w-full" : "w-[60px] lg:w-full"
       } fixed lg:sticky top-0 ${
-        isOpen ? 'justify-end' : '' // Apply justify-end only when isOpen is true (mobile view)
+        isOpen ? "justify-end" : "" 
       }`}
     >
-      <div className="block lg:hidden">                                       
+      <div className="block lg:hidden">
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="flex self-end rounded text-black-500"
         >
           <svg
-            className={`w-full fill-current h-3  ${isOpen ? 'hidden' : 'block'}`}
+            className={`w-full fill-current h-3  ${
+              isOpen ? "hidden" : "block"
+            }`}
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
           </svg>
           <svg
-            className={`fill-current h-3 w-3 ${isOpen ? 'block' : 'hidden'}`}
+            className={`fill-current h-3 w-3 ${isOpen ? "block" : "hidden"}`}
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -38,7 +40,7 @@ const Navbar = () => {
       </div>
       <div
         className={`lg:w-full lg:h-2 lg:flex lg:items-center lg:text-center ${
-          isOpen ? 'block' : 'hidden'
+          isOpen ? "block" : "hidden"
         }`}
       >
         <div className="text-xl lg:flex-grow lg:space-x-[5rem]">
