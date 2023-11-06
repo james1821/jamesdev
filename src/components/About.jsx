@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section id="About" className="h-full bg-[#000000]">
       <div className="lg:flex flex-row-reverse pt-20">
-        <div className="lg:w-[90%] p-2   m-auto">
+        <div className="lg:w-[90%] p-2  m-auto">
           <div className="text-center text-white  p-4">
             <h2 className="text-4xl md:text-6xl font-bold pb-4 pt-4 text-primary ">
               About Me
@@ -28,10 +28,10 @@ const About = () => {
         </div>
 
         <div className="w-full md:pt-20  ">
-          <Slide direction="right" triggerOnce="true">
+          <Slide direction="left">
             <img
               src={James}
-              alt="mePointingImage"
+              alt="James"
               className=" w-[60%] md:w-[40%]  m-auto  "
               loading="lazy"
             />
