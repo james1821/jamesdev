@@ -4,16 +4,14 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleLinkClick = () => {
-    setIsOpen(false); 
+    setIsOpen(false);
   };
 
   return (
     <nav
       className={`flex lg:items-center lg:justify-between p-6 bg-primary lg:bg-primary-bg z-10 ${
         isOpen ? "lg:w-full" : "w-[60px] lg:w-full"
-      } fixed lg:sticky top-0 ${
-        isOpen ? "justify-end" : "" 
-      }`}
+      } fixed lg:sticky top-0 ${isOpen ? "justify-end" : ""}`}
     >
       <div className="block lg:hidden">
         <button
@@ -60,13 +58,6 @@ const Navbar = () => {
             About
           </a>
           <a
-            href="#Background"
-            onClick={handleLinkClick}
-            className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary mr-4"
-          >
-            Background
-          </a>
-          <a
             href="#Works"
             onClick={handleLinkClick}
             className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary mr-4"
@@ -74,7 +65,15 @@ const Navbar = () => {
             Works
           </a>
           <a
-            href="#"
+            href="#Background"
+            onClick={handleLinkClick}
+            className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary mr-4"
+          >
+            Background
+          </a>
+
+          <a
+            href="#Contacts"
             onClick={handleLinkClick}
             className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-primary mr-4"
           >

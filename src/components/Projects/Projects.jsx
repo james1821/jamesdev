@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Fade } from "react-awesome-reveal";
 const Project = ({
   title,
   videoSrc,
@@ -10,7 +10,7 @@ const Project = ({
   CodeLink,
 }) => {
   return (
-    <div className="flex-col bg-secondary md:w-1/3  text-white text-center round">
+    <div className="flex-col bg-secondary md:w-1/3  text-white text-center rounded-md ">
       {videoSrc ? (
         <iframe
           className="m-auto w-full h-[300px]"
@@ -18,11 +18,7 @@ const Project = ({
           title={title}
         ></iframe>
       ) : (
-        <img
-          className="m-auto w-auto h-[20%] lg:h-[40%]"
-          src={imageSrc}
-          alt="Project"
-        />
+        <img className="m-auto h-[15rem] w-auto" src={imageSrc} alt="Project" />
       )}
 
       {/* button for view code */}
@@ -63,16 +59,18 @@ const Project = ({
 
         <p className="p-1">{description}</p>
       </div>
-      <div className="flex justify-center items-center gap-3 pt-4">
-        {techStack.map((tech, index) => (
-          <img
-            className="w-[40px]"
-            src={tech}
-            alt={`tech-${index}`}
-            key={`tech-${index}`}
-          />
-        ))}
-      </div>
+      <Fade>
+        <div className="flex justify-center items-center gap-3 p-4">
+          {techStack.map((tech, index) => (
+            <img
+              className="w-[40px]"
+              src={tech}
+              alt={`tech-${index}`}
+              key={`tech-${index}`}
+            />
+          ))}
+        </div>
+      </Fade>
     </div>
   );
 };

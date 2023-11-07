@@ -2,6 +2,7 @@ import React from "react";
 import Project from "./Projects";
 import RMS from "../images/APCBA_RMS.png";
 import HoneyShop from "/img/HoneyShop.png";
+import { Fade, Slide } from "react-awesome-reveal";
 const Works = () => {
   const TechStack = {
     Tailwind:
@@ -48,14 +49,17 @@ const Works = () => {
 
   return (
     <section id="Works" className="bg-primary-bg">
-      <h1 className="text-center md:text-center text-6xl md:text-8xl font-bold py-10 text-primary">
-        Projects
-      </h1>
-      <div className=" flex md:flex-row justify-center gap-10 flex-col h-[50%] ">
-        {projects.map((project, index) => (
-          <Project {...project} key={`project-${index}`} />
-        ))}
-      </div>
+      <Fade>
+        <h1 className="text-center md:text-center text-6xl md:text-8xl font-bold pt-10 text-primary">
+          Projects
+        </h1>
+
+        <div className=" flex md:flex-row justify-center gap-10 p-5  flex-col h-[50%] ">
+          {projects.map((project, index) => (
+            <Project {...project} key={`project-${index}`} />
+          ))}
+        </div>
+      </Fade>
     </section>
   );
 };
