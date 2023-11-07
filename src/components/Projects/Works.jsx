@@ -54,14 +54,13 @@ const Works = () => {
           Projects
         </h1>
       </Fade>
-
-      <div className=" flex md:flex-row justify-center gap-10 p-5  flex-col h-[50%] ">
-        {projects.map((project, index) => (
-          <Fade>
+      <Fade>
+        <div className=" flex md:flex-row justify-center gap-10 p-5  flex-col h-[50%] ">
+          {projects.map((project, index) => (
             <Project {...project} key={`project-${index}`} />
-          </Fade>
-        ))}
-      </div>
+          ))}
+        </div>
+      </Fade>
     </section>
   );
 };
