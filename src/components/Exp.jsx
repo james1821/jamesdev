@@ -33,14 +33,19 @@ function Exp() {
         <h1 className=" text-center md:text-center text-6xl md:text-8xl font-bold pb-4 pt-10 text-primary bg-[#000000]">
           Background
         </h1>
-        <div className="flex flex-col lg:flex-row justify-start bg-[#000000]">
-          <div className="w-full lg:w-1/2 lg:pl-10">
+      </Fade>
+      <div className="flex flex-col lg:flex-row justify-start bg-[#000000]">
+        <div className="w-full lg:w-1/2 lg:pl-10">
+          <Fade>
             <h1 className="text-center md:text-center text-3xl md:text-4xl font-bold pb-4 pt-10 text-white">
               Education and Work Experience
             </h1>
             <Background />
-          </div>
-          <div className="w-full lg:w-1/2 lg:pr-10 flex flex-col">
+          </Fade>
+        </div>
+
+        <div className="w-full lg:w-1/2 lg:pr-10 flex flex-col">
+          <Fade>
             <h1 className="text-center text-3xl md:text-4xl font-bold pb-4 pt-10 text-white">
               Tech Stack
             </h1>
@@ -60,9 +65,9 @@ function Exp() {
                 </ul>
               </div>
             </div>
-          </div>
+          </Fade>
         </div>
-      </Fade>
+      </div>
     </div>
   );
 }
