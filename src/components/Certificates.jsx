@@ -31,7 +31,7 @@ const Certificates = () => {
               disableOnInteraction: false,
             }}
             pagination={true}
-            modules={[Pagination, Autoplay]}
+            modules={[Pagination]}
             className="w-full h-[300px] "
           >
             {certificates.map((item, index) => (

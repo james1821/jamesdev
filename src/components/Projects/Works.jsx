@@ -77,11 +77,12 @@ const Works = () => {
       </Fade>
       <div className="">
         <div className="flex flex-col lg:flex-row justify-start">
-          <div className="w-full lg:w-1/2 lg:pl-10">
+          <div className="w-full lg:w-1/2 lg:pl-10 ">
             <Fade>
               <h1 className="text-center md:text-center text-3xl md:text-4xl font-bold pb-4 pt-10 text-white">
                 Other Projects
               </h1>
+
               <OtherProjects />
             </Fade>
           </div>
