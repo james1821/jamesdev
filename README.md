@@ -1,8 +1,6 @@
-Made by: Mark James Espinosa
+©Mark James Espinosa
 
 Created using Vite + React.js
 
-Design: Mostly Tailwind CSS and some vanilla CSS
+Design: Mostly Tailwind CSS, useful npm libraries and some vanilla CSS
 
-Libraries: Chronos for timelines,
-react-type-animation for typing animation
