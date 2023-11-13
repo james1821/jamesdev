@@ -39,10 +39,11 @@ const Works = () => {
       description:
         "A Web-based System for Asia Pacific College of Business and Art in Rizal Nueva Ecija as part of my undergraduate capstone/thesis. The objective of this project is to streamline record management.",
       techStack: [
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+        TechStack.PHP,
+        TechStack.JavaScript,
+        TechStack.HTML,
+        TechStack.CSS,
+        TechStack.MySql,
       ],
     },
     {
