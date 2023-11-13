@@ -20,9 +20,9 @@ const Home = () => {
             <TypeAnimation
               sequence={[
                 "Front End",
-                800,
+                400,
                 "Back End",
-                800,
+                400,
                 "Full Stack Developer",
               ]}
               speed={70}

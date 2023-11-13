@@ -22,7 +22,7 @@ function Contacts() {
           >
             <img
               className="w-[50px] "
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+              src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/linked_in_online_social_media-64.png"
             />
           </a>
           <a
@@ -31,7 +31,7 @@ function Contacts() {
           >
             <img
               className="w-[50px] "
-              src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico"
+              src="https://cdn4.iconfinder.com/data/icons/black-white-social-media/32/mail_email_envelope_send_message-64.png"
             />
           </a>
           <a
@@ -40,14 +40,13 @@ function Contacts() {
           >
             <img
               className="w-[50px] "
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"
+              src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_facebook-64.png"
             />
           </a>
-
-          <a target="_blank" href="https://github.com/james1821">
+          <a target="_blank" href="https://github.com/james1821/">
             <img
               className="w-[50px] "
-              src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+              src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/64/social_media_logo_github-64.png"
             />
           </a>
         </div>
