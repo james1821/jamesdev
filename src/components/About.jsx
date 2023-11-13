@@ -9,8 +9,8 @@ const About = () => {
       <div className="lg:flex flex-row-reverse pt-20">
         <div className="lg:w-[90%] p-2  m-auto">
           <Fade>
-            <div className="text-center text-white  p-4">
-              <h2 className="text-4xl md:text-6xl font-bold pb-4 pt-4 text-primary ">
+            <div className="text-center text-white lg:pr-20 p-4">
+              <h2 className="text-4xl md:text-6xl font-bold pb-4 pt-4  text-primary ">
                 About Me
               </h2>
 
