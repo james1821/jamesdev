@@ -34,8 +34,8 @@ const Works = () => {
       title:
         "Web-Based Record Management System with Two-factor Authentication",
       imageSrc: RMS,
-      DemoLink: "",
-      CodeLink: "",
+      DemoLink: "http://apcba-demo.infinityfreeapp.com/admin/login.php",
+      CodeLink: "https://github.com/james1821/APCBA_RMS",
       description:
         "A Web-based System for Asia Pacific College of Business and Art in Rizal Nueva Ecija as part of my undergraduate capstone/thesis. The objective of this project is to streamline record management.",
       techStack: [
