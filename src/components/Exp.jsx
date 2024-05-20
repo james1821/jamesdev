@@ -13,7 +13,7 @@ function Exp() {
       <div className="flex flex-col lg:flex-row justify-start bg-[#000000]">
         <div className="w-full lg:w-1/2 lg:pl-10">
           <Fade>
-            <h1 className="text-center md:text-center text-3xl md:text-4xl font-bold pb-4 pt-10 text-white md:whitespace-nowrap">
+            <h1 className="text-center md:text-center text-3xl md:text-4xl font-bold pb-4 pt-10 text-white">
               Education and Work Experience
             </h1>
             <Background />
