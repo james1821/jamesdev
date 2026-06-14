@@ -1,23 +1,11 @@
-import "./App.css";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Works from "./components/Projects/Works";
-import Exp from "./components/Exp";
-import Contacts from "./components/Contacts";
-import Footer from "./components/Footer";
+import { useEffect } from "react";
+
 function App() {
-  return (
-    <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Works />
-      <Exp />
-      <Contacts />
-      <Footer />
-    </div>
-  );
+  useEffect(() => {
+    window.location.replace("https://james-dev-portfolio-v2-u2oa.vercel.app");
+  }, []);
+
+  return null;
 }
 
 export default App;
